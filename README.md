@@ -2,6 +2,11 @@
 
 This folder is for Prof Ali Hayek projects of Hardware engineering and Advanced Embedded System's projects
 
----------Team Members---------
+---------Team Members AES---------
 * Jaouaher Belgacem
-*Jasmeet Singh
+* Jasmeet Singh
+
+---------Team Members HWE---------
+* Jaouaher Belgacem
+* Jasmeet Singh
+* Evrard Leuteu Feukeu
