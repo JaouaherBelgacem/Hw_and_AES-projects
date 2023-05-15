@@ -1,0 +1,421 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/20.1
+Ebcd_adder_display
+w1684015967
+!i122 54
+Z0 dC:/Users/jasme/Desktop/VHDL/Exercise
+8C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Adder_Display.vhd
+FC:\Users\jasme\Desktop\VHDL\Exercise\BCD_Adder_Display.vhd
+l0
+L1 1
+VDFaD6j0JVid?iGQ0S36XQ2
+!s100 NIRZRYK0Rz6K563FA>Xkg3
+Z1 OV;C;2020.1;71
+32
+!s110 1684016731
+!i10b 1
+!s108 1684016730.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Adder_Display.vhd|
+!s107 C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Adder_Display.vhd|
+!i113 1
+Z2 o-work work -2002 -explicit
+Z3 tExplicit 1 CvgOpt 0
+Ebcd_decoder
+Z4 w1684016808
+!i122 57
+R0
+Z5 8C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Decoder.vhd
+Z6 FC:\Users\jasme\Desktop\VHDL\Exercise\BCD_Decoder.vhd
+l0
+L1 1
+V5iFK=04`JdAN4KOf6gg3`2
+!s100 ]Ij]Don8eHiPk8eM`O13O2
+R1
+32
+Z7 !s110 1684016812
+!i10b 1
+Z8 !s108 1684016812.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Decoder.vhd|
+Z10 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\BCD_Decoder.vhd|
+!i113 1
+R2
+R3
+Abehavioral
+DEx4 work 11 bcd_decoder 0 22 5iFK=04`JdAN4KOf6gg3`2
+!i122 57
+l7
+L6 15
+VOIY;WdNzW_jKQ5[8okXDj3
+!s100 ?n:0kJ:1CgeSil`=0dncH1
+R1
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R2
+R3
+Ebcd_decoder_test
+Z11 w1684017012
+!i122 61
+R0
+Z12 8C:/Users/jasme/Desktop/VHDL/Exercise/BCD_Decoder_Test.vhd
+Z13 FC:/Users/jasme/Desktop/VHDL/Exercise/BCD_Decoder_Test.vhd
+l0
+L1 1
+V0nXIWE3ZV8nUZ1TUPER;K2
+!s100 ]bh7A?7DQIUbVC7NS?9Uh3
+R1
+32
+Z14 !s110 1684070715
+!i10b 1
+Z15 !s108 1684070715.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jasme/Desktop/VHDL/Exercise/BCD_Decoder_Test.vhd|
+!s107 C:/Users/jasme/Desktop/VHDL/Exercise/BCD_Decoder_Test.vhd|
+!i113 1
+R2
+R3
+Abench
+Z17 DEx4 work 16 bcd_decoder_test 0 22 0nXIWE3ZV8nUZ1TUPER;K2
+!i122 61
+l13
+Z18 L4 18
+Z19 V?c1lSO9PXIS=mA43BV1Zj2
+Z20 !s100 8zjZAbUdKA@Rh=ZG84zUK3
+R1
+32
+R14
+!i10b 1
+R15
+R16
+Z21 !s107 C:/Users/jasme/Desktop/VHDL/Exercise/BCD_Decoder_Test.vhd|
+!i113 1
+R2
+R3
+Efa
+Z22 w1682420734
+!i122 27
+R0
+Z23 8C:\Users\jasme\Desktop\VHDL\Exercise\FA_HA_Component.vhd
+Z24 FC:\Users\jasme\Desktop\VHDL\Exercise\FA_HA_Component.vhd
+l0
+L1 1
+VS43a3EZLb<1kZY48klS1L1
+!s100 0JaH9^<UMP<1BdbO]jEi>1
+R1
+32
+Z25 !s110 1682420794
+!i10b 1
+Z26 !s108 1682420794.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\FA_HA_Component.vhd|
+Z28 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\FA_HA_Component.vhd|
+!i113 1
+R2
+R3
+Abehavioural
+DEx4 work 2 fa 0 22 S43a3EZLb<1kZY48klS1L1
+!i122 27
+l18
+L9 16
+V9f:DUUBiVCOn]h<gAMRHk2
+!s100 iW`h`Z5MlQHQ?j5I3cX>21
+R1
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R2
+R3
+Efourpin
+Z29 w1681817855
+!i122 12
+R0
+Z30 8C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510.vhd
+Z31 FC:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510.vhd
+l0
+L1 1
+V7f_<MdkLYSHT5dJ6Zc22j2
+!s100 1fN>WeMJRNAnLecWTfoM_2
+R1
+32
+Z32 !s110 1681817864
+!i10b 1
+Z33 !s108 1681817864.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510.vhd|
+Z35 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510.vhd|
+!i113 1
+R2
+R3
+Abehavioral
+DEx4 work 7 fourpin 0 22 7f_<MdkLYSHT5dJ6Zc22j2
+!i122 12
+l11
+L9 11
+Veb0=h@ZfYMSO38zXMf4ZV3
+!s100 d6UflHh>ONg=G=@Ma1l2C0
+R1
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R2
+R3
+Eha
+Z36 w1682418476
+!i122 19
+R0
+Z37 8C:\Users\jasme\Desktop\VHDL\Exercise\HA.vhd
+Z38 FC:\Users\jasme\Desktop\VHDL\Exercise\HA.vhd
+l0
+L1 1
+VlN7:2gX3Kg1U<9e[Zmhaz0
+!s100 H9BfeD@@`EkJMBFM:Jl0U3
+R1
+32
+Z39 !s110 1682418479
+!i10b 1
+Z40 !s108 1682418479.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\HA.vhd|
+Z42 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\HA.vhd|
+!i113 1
+R2
+R3
+Abehavioural
+DEx4 work 2 ha 0 22 lN7:2gX3Kg1U<9e[Zmhaz0
+!i122 19
+l9
+L8 5
+V?:8FoFed;jbI`Y50A=8n<2
+!s100 c0oQ0fMSGH;o?]:ZB=GZ53
+R1
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R2
+R3
+Abehavioral
+DEx4 work 2 ha 0 22 =`G[6ODmXn26VAD<^]EG[3
+!i122 0
+l9
+L8 5
+VP?gZT=XWT[3F8A<3G:a4b0
+!s100 [D?_gz08bIhTZ52iS5=i63
+R1
+32
+!s110 1681815820
+!i10b 1
+!s108 1681815820.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jasme/Desktop/VHDL/Exercise/Exercise5510.vhd|
+!s107 C:/Users/jasme/Desktop/VHDL/Exercise/Exercise5510.vhd|
+!i113 1
+R2
+R3
+FC:/Users/jasme/Desktop/VHDL/Exercise/Exercise5510.vhd
+w1681815817
+8C:/Users/jasme/Desktop/VHDL/Exercise/Exercise5510.vhd
+Erca
+Z43 w1682424906
+!i122 39
+R0
+Z44 8C:\Users\jasme\Desktop\VHDL\Exercise\RippleCarryAdder.vhd
+Z45 FC:\Users\jasme\Desktop\VHDL\Exercise\RippleCarryAdder.vhd
+l0
+L1 1
+V5A2;ZEF^9mX8Ag3PfomWU0
+!s100 _Y@7N2YPaFTlo@Ye2]2YC0
+R1
+32
+Z46 !s110 1682424913
+!i10b 1
+Z47 !s108 1682424913.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\RippleCarryAdder.vhd|
+Z49 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\RippleCarryAdder.vhd|
+!i113 1
+R2
+R3
+Abehavioral
+DEx4 work 3 rca 0 22 5A2;ZEF^9mX8Ag3PfomWU0
+!i122 39
+l14
+L7 16
+Vo8HjGk7<kPLYl6@Wh`;a`1
+!s100 a`YOia4Sb5A]O>`8A6ooX2
+R1
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R2
+R3
+Etest
+Z50 w1681818776
+!i122 18
+R0
+Z51 8C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510TB.vhd
+Z52 FC:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510TB.vhd
+l0
+L1 1
+Vi0PV7J_1G?J6nDN[HZ5fH3
+!s100 9bCLI3dEiI023h61:>fMO3
+R1
+32
+Z53 !s110 1682418335
+!i10b 1
+Z54 !s108 1682418335.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510TB.vhd|
+Z56 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\Exercise5510TB.vhd|
+!i113 1
+R2
+R3
+Abench
+DEx4 work 4 test 0 22 i0PV7J_1G?J6nDN[HZ5fH3
+!i122 18
+l15
+L5 19
+Vm?INMb;hQ7^K8=9]Vg;ba1
+!s100 L7gcS;_kg1jXajPS3@W;i1
+R1
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R2
+R3
+Etestfa
+Z57 w1682421705
+!i122 29
+R0
+Z58 8C:\Users\jasme\Desktop\VHDL\Exercise\FA_test.vhd
+Z59 FC:\Users\jasme\Desktop\VHDL\Exercise\FA_test.vhd
+l0
+L1 1
+VNJ[Nc6V1idca_boJ^1na53
+!s100 PXgOD_:@P317n=64Tc<k:0
+R1
+32
+Z60 !s110 1682421728
+!i10b 1
+Z61 !s108 1682421728.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\FA_test.vhd|
+Z63 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\FA_test.vhd|
+!i113 1
+R2
+R3
+Abench
+DEx4 work 6 testfa 0 22 NJ[Nc6V1idca_boJ^1na53
+!i122 29
+l15
+Z64 L4 20
+ViFXji^DXDV;BkfU]e^=CT1
+!s100 ;f0D<dOjii^0Tdjn:@M_73
+R1
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R2
+R3
+Etestha
+Z65 w1682418500
+!i122 20
+R0
+Z66 8C:\Users\jasme\Desktop\VHDL\Exercise\HA_test.vhd
+Z67 FC:\Users\jasme\Desktop\VHDL\Exercise\HA_test.vhd
+l0
+L1 1
+VYPGLaCeXfXWkC<d?WkJLT2
+!s100 aan@YJS>XaGAJPRjFhTc61
+R1
+32
+Z68 !s110 1682418502
+!i10b 1
+Z69 !s108 1682418502.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\HA_test.vhd|
+Z71 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\HA_test.vhd|
+!i113 1
+R2
+R3
+Abench
+DEx4 work 6 testha 0 22 YPGLaCeXfXWkC<d?WkJLT2
+!i122 20
+l14
+R18
+VjkSDj7eM5`UhYLzmlDDMQ3
+!s100 ^>H:83F6d]Y;_Lf0T;e_03
+R1
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R2
+R3
+Etestrca
+Z72 w1683719257
+!i122 49
+R0
+Z73 8C:\Users\jasme\Desktop\VHDL\Exercise\RCA_Test.vhd
+Z74 FC:\Users\jasme\Desktop\VHDL\Exercise\RCA_Test.vhd
+l0
+L1 1
+V`Rk`=G2@6hIC_Jm?3eT1k0
+!s100 A>d?RafK>e0>F2^kL10bz3
+R1
+32
+Z75 !s110 1683719262
+!i10b 1
+Z76 !s108 1683719262.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\jasme\Desktop\VHDL\Exercise\RCA_Test.vhd|
+Z78 !s107 C:\Users\jasme\Desktop\VHDL\Exercise\RCA_Test.vhd|
+!i113 1
+R2
+R3
+Abench
+DEx4 work 7 testrca 0 22 `Rk`=G2@6hIC_Jm?3eT1k0
+!i122 49
+l14
+R64
+V4WNmhV1QDThl1K5bCE4eS1
+!s100 C4h@4hf=M@W0FY4KP6=M03
+R1
+32
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R2
+R3
