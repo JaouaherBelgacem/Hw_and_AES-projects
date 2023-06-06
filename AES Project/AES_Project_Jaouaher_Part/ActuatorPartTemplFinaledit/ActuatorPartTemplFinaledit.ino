@@ -11,7 +11,7 @@ WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 //PubSubClient client;
 
-const char broker[] = "192.168.137.87";
+const char broker[] = "192.168.137.226";
 int port = 1883;
 const char aesProjTopic[] = "Humidity";
 
@@ -110,6 +110,9 @@ void loop()
         //Serial.print((char)humidity[i]);
       //}
       //Serial.print(humidity);
+      digitalWrite(Led_Green, HIGH);
+      digitalWrite(Led_Red, HIGH);
+      digitalWrite(Led_Blue, HIGH);
     }
 
     Serial.println();
