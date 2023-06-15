@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1686846870" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/VendingM.dcp">
   <File Type="PA-TCL" Name="VendingM.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="VendingM_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="VendingM_reports.tcl"/>
   <File Type="RDS-RDS" Name="VendingM.vds"/>
   <File Type="RDS-UTIL" Name="VendingM_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="VendingM_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="VendingM.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="VendingM_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="VendingM_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/VendingM.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/vending machine v2/VendingM/VendingM.srcs/sources_1/new/VendingM.vhd"/>
+        <Attr Name="ImportTime" Val="1686860641"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -25,7 +24,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../../HSHL Online/Semester 6/Hardware Engineering/Nexys-A7-100T-Master.xdc">
+    <File Path="$PPRDIR/../../../../../../Desktop/HSHL Online/Semester 6/Hardware Engineering/Nexys-A7-100T-Master.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -39,6 +38,8 @@
     <Filter Type="Utils"/>
     <File Path="$PSRCDIR/utils_1/imports/synth_1/VendingM.dcp">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/vending machine v2/VendingM/VendingM.srcs/utils_1/imports/synth_1/VendingM.dcp"/>
+        <Attr Name="ImportTime" Val="1686846868"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedInSteps" Val="synth_1"/>

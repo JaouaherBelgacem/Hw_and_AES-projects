@@ -13,7 +13,7 @@ end entity;
 architecture vendingM_arch of vendingM is
 
 type states is (idle, s20, s40);
-signal currentState, nextState: states;
+signal currentState, nextState: states := idle;
 
 begin
 
@@ -123,7 +123,7 @@ begin
 
 
 	when others => 	DispenseD <= '0'; 
-		       	balance <= "0100" ;
+		       	balance <= "0000" ;
 			returnAmount <= "0000";   
 			drinksChoice <= "00";
 

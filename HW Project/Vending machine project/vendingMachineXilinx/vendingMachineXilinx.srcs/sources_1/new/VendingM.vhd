@@ -174,7 +174,7 @@ begin
 
 
 	when others => 	DispenseD <= '0'; 
-		       	balance <= "0100" ;
+		       	balance <= "0000" ;
 			returnAmount <= "0000";   
 			drinksChoice <= "00";
 
