@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Evendingm
+Z0 w1686735547
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dC:/Users/ACER/Desktop/vending machine v2
+Z4 8C:/Users/ACER/Desktop/vending machine v2/vendingM.vhd
+Z5 FC:/Users/ACER/Desktop/vending machine v2/vendingM.vhd
+l0
+L4 1
+VILVl5gBHXg7C8LSi?ebD41
+!s100 @b?HDH6A_0bPbge?>;Kz10
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1686735554
+!i10b 1
+Z8 !s108 1686735554.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Desktop/vending machine v2/vendingM.vhd|
+Z10 !s107 C:/Users/ACER/Desktop/vending machine v2/vendingM.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Avendingm_arch
+R1
+R2
+DEx4 work 8 vendingm 0 22 ILVl5gBHXg7C8LSi?ebD41
+!i122 0
+l18
+L13 122
+VFB;02c9[nA>1^I3hgNB361
+!s100 ;zV9SjhZ6dJTlJ[eTYJ@W0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Evendingmtb
+Z13 w1686735615
+R1
+R2
+!i122 1
+R3
+Z14 8C:/Users/ACER/Desktop/vending machine v2/vendingMtb.vhd
+Z15 FC:/Users/ACER/Desktop/vending machine v2/vendingMtb.vhd
+l0
+L4 1
+V5O0b3S2E]O?<mo_n6V8621
+!s100 9W00NG_F_b]4A38`_?M`T1
+R6
+32
+Z16 !s110 1686735621
+!i10b 1
+Z17 !s108 1686735621.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Desktop/vending machine v2/vendingMtb.vhd|
+!s107 C:/Users/ACER/Desktop/vending machine v2/vendingMtb.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R1
+R2
+DEx4 work 10 vendingmtb 0 22 5O0b3S2E]O?<mo_n6V8621
+!i122 1
+l33
+L7 191
+V5LV]Mg0zJ_?cQNmA6Afhc1
+!s100 FL2PWASB6>NI9CG^kY_je3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z19 !s107 C:/Users/ACER/Desktop/vending machine v2/vendingMtb.vhd|
+!i113 1
+R11
+R12

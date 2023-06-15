@@ -1,0 +1,95 @@
+# Compile of vendingM.vhd was successful.
+# Compile of vendingMtb.vhd was successful.
+vsim -gui work.vendingmtb
+# vsim -gui work.vendingmtb 
+# Start time: 11:40:49 on Jun 14,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.vendingmtb(testbench)
+# Loading work.vendingm(vendingm_arch)
+add wave -position insertpoint sim:/vendingmtb/*
+add wave -position insertpoint sim:/vendingmtb/dut/Next_State_Process/*
+# ** UI-Msg: (vish-4014) No objects found matching '/vendingmtb/dut/Next_State_Process/*'.
+run
+# ** Error: Test Case 5 Failed: Incorrect balance
+#    Time: 140 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: Incorrect drinks choice
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: Incorrect balance
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: DispenseD signal asserted
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 7 Failed: Incorrect balance
+#    Time: 180 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: Incorrect drinks choice
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: Incorrect balance
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: DispenseD signal not asserted
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: Incorrect drinks choice
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: Incorrect balance
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: DispenseD signal not asserted
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 10 Failed: Incorrect balance
+#    Time: 240 ns  Iteration: 0  Instance: /vendingmtb
+add wave -position end sim:/vendingmtb/dut/State_Memory_Process/*
+# ** UI-Msg: (vish-4014) No objects found matching '/vendingmtb/dut/State_Memory_Process/*'.
+add wave -position end  sim:/vendingmtb/dut/drinksChoice
+add wave -position end  sim:/vendingmtb/dut/currentState
+add wave -position end  sim:/vendingmtb/dut/nextState
+run -all
+# Break key hit
+quit -sim
+vsim -gui work.vendingmtb(testbench)
+# End time: 12:35:19 on Jun 14,2023, Elapsed time: 0:54:30
+# Errors: 12, Warnings: 7
+# vsim -gui work.vendingmtb(testbench) 
+# Start time: 12:35:22 on Jun 14,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.vendingmtb(testbench)
+# Loading work.vendingm(vendingm_arch)
+add wave -position end  sim:/vendingmtb/balance_tb
+add wave -position end  sim:/vendingmtb/clk
+add wave -position end  sim:/vendingmtb/CLK_PERIOD
+add wave -position end  sim:/vendingmtb/coffee_tb
+add wave -position end  sim:/vendingmtb/DispenseD_tb
+add wave -position end  sim:/vendingmtb/drinksChoice_tb
+add wave -position end  sim:/vendingmtb/euroIn_tb
+add wave -position end  sim:/vendingmtb/reset_tb
+add wave -position end  sim:/vendingmtb/returnAmount_tb
+add wave -position end  sim:/vendingmtb/tee_tb
+add wave -position end  sim:/vendingmtb/twentyCent_tb
+add wave -position end  sim:/vendingmtb/dut/currentState
+add wave -position end  sim:/vendingmtb/dut/nextState
+run -all
+# ** Error: Test Case 5 Failed: Incorrect balance
+#    Time: 140 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: Incorrect drinks choice
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: Incorrect balance
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 6 Failed: DispenseD signal asserted
+#    Time: 160 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 7 Failed: Incorrect balance
+#    Time: 180 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: Incorrect drinks choice
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: Incorrect balance
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 8 Failed: DispenseD signal not asserted
+#    Time: 200 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: Incorrect drinks choice
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: Incorrect balance
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 9 Failed: DispenseD signal not asserted
+#    Time: 220 ns  Iteration: 0  Instance: /vendingmtb
+# ** Error: Test Case 10 Failed: Incorrect balance
+#    Time: 240 ns  Iteration: 0  Instance: /vendingmtb
+run
