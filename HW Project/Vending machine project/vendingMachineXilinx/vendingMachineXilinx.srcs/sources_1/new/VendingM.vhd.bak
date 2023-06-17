@@ -248,15 +248,15 @@ end process;
 			end if;
 		when "101" =>
 			An0 <= "11111101";
-			--if DispenseD = '0' then
+			if DispenseD = '0' then
 				DataDisp <= balance;
-			--else
-				--DataDisp <= returnAmount;
-			--end if;
+			else
+				DataDisp <= returnAmount;
+			end if;
 
 		when others =>
 			An0 <= "11111110";
-			DataDisp <= returnAmount;
+			DataDisp <= "0000";
 
 		end case;
 	end process;
