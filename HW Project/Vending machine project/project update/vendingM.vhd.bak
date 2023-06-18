@@ -13,7 +13,7 @@ end entity;
 architecture vendingM_arch of vendingM is
 
 type states is (idle, s20, s40);
-signal currentState, nextState: states := idle;
+signal currentState, nextState: states;
 
 begin
 
