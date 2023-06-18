@@ -6,7 +6,7 @@
 <Project Version="7" Minor="61" Path="C:/Users/ACER/Documents/GitHub/Hw_and_AES-projects/HW Project/Vending machine project/vendingMachineXilinx/vendingMachineXilinx.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="125774326002484585f7e38760e72be2"/>
+    <Option Name="Id" Val="459b5f7d62ee4f83960c9c41de37e92c"/>
     <Option Name="Part" Val="xc7a100tcsg324-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -47,7 +47,6 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
@@ -92,7 +91,7 @@
       <File Path="$PSRCDIR/sources_1/new/VendingM.vhd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/vending machine v2/VendingM/VendingM.srcs/sources_1/new/VendingM.vhd"/>
-          <Attr Name="ImportTime" Val="1686860641"/>
+          <Attr Name="ImportTime" Val="1687083696"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -138,7 +137,7 @@
       <File Path="$PSRCDIR/utils_1/imports/synth_1/VendingM.dcp">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../Desktop/vending machine v2/VendingM/VendingM.srcs/utils_1/imports/synth_1/VendingM.dcp"/>
-          <Attr Name="ImportTime" Val="1686846868"/>
+          <Attr Name="ImportTime" Val="1687083700"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedInSteps" Val="synth_1"/>

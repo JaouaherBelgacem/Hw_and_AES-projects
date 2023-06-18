@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Thu Jun 15 18:35:44 2023
+| Date         : Sun Jun 18 12:24:43 2023
 | Host         : DESKTOP-TAEMN0N running 64-bit major release  (build 9200)
 | Command      : report_utilization -file VendingM_utilization_synth.rpt -pb VendingM_utilization_synth.pb
 | Design       : VendingM
@@ -31,8 +31,8 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   10 |     0 |          0 |     63400 |  0.02 |
-|   LUT as Logic          |   10 |     0 |          0 |     63400 |  0.02 |
+| Slice LUTs*             |    8 |     0 |          0 |     63400 |  0.01 |
+|   LUT as Logic          |    8 |     0 |          0 |     63400 |  0.01 |
 |   LUT as Memory         |    0 |     0 |          0 |     19000 |  0.00 |
 | Slice Registers         |    2 |     0 |          0 |    126800 | <0.01 |
 |   Register as Flip Flop |    2 |     0 |          0 |    126800 | <0.01 |
@@ -149,8 +149,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | OBUF     |   11 |                  IO |
-| LUT6     |    7 |                 LUT |
 | IBUF     |    6 |                  IO |
+| LUT5     |    4 |                 LUT |
+| LUT6     |    3 |                 LUT |
 | LUT3     |    2 |                 LUT |
 | FDCE     |    2 |        Flop & Latch |
 | LUT2     |    1 |                 LUT |
