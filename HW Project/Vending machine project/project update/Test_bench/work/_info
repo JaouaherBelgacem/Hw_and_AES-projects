@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/leute/OneDrive/Bureau/vm
+Evendingm
+Z0 w1686910204
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+Z3 dC:/Users/leute/OneDrive/Bureau/vmachine
+Z4 8C:/Users/leute/OneDrive/Bureau/vm/vendingM.vhd
+Z5 FC:/Users/leute/OneDrive/Bureau/vm/vendingM.vhd
+l0
+L4 1
+VILVl5gBHXg7C8LSi?ebD41
+!s100 @b?HDH6A_0bPbge?>;Kz10
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1686912126
+!i10b 1
+Z8 !s108 1686912126.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/leute/OneDrive/Bureau/vm/vendingM.vhd|
+Z10 !s107 C:/Users/leute/OneDrive/Bureau/vm/vendingM.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Avendingm_arch
+R1
+R2
+DEx4 work 8 vendingm 0 22 ILVl5gBHXg7C8LSi?ebD41
+!i122 11
+l18
+L13 122
+V_OJ65Li?91mXQ`XUAl08D2
+!s100 e;e:neaoi9:S67=?CYZO@2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Evendingm_tb
+Z13 w1687263250
+R1
+R2
+!i122 32
+R3
+Z14 8C:/Users/leute/OneDrive/Bureau/vmachine/vendingM_tb.vhd
+Z15 FC:/Users/leute/OneDrive/Bureau/vmachine/vendingM_tb.vhd
+l0
+L4 1
+Vk;=Y1?GkVlBZ=2c8W5iWf1
+!s100 IfB`bHhWV=CJ;fLX_6N;@3
+R6
+32
+Z16 !s110 1687263260
+!i10b 1
+Z17 !s108 1687263260.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/leute/OneDrive/Bureau/vmachine/vendingM_tb.vhd|
+Z19 !s107 C:/Users/leute/OneDrive/Bureau/vmachine/vendingM_tb.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 11 vendingm_tb 0 22 k;=Y1?GkVlBZ=2c8W5iWf1
+!i122 32
+l27
+L7 92
+VSBb@MU6hDAd<DQbL?Q5Wo1
+!s100 Rf5<1h?lY4k5N7G39bj@83
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Evendingmachine_tb
+Z20 w1686993576
+Z21 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 23
+R3
+R14
+R15
+l0
+L7 1
+V5eARN2AN1=`h61[hI0;8[0
+!s100 :Rce>h@n^PRa>:O]1OzmQ1
+R6
+32
+Z22 !s110 1686993582
+!i10b 1
+Z23 !s108 1686993582.000000
+R18
+R19
+!i113 1
+R11
+R12
+Abehavioral
+R21
+R1
+R2
+DEx4 work 17 vendingmachine_tb 0 22 5eARN2AN1=`h61[hI0;8[0
+!i122 23
+l33
+L10 87
+VRl<j80SaY]bS6Ji5DO?CI0
+!s100 8LkY_M[z:a[;Ah0eTCG<f3
+R6
+32
+R22
+!i10b 1
+R23
+R18
+R19
+!i113 1
+R11
+R12
