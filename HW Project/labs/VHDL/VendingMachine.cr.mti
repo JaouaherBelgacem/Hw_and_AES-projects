@@ -1,0 +1,30 @@
+C:/Users/jasme/Desktop/VHDL/VendingMachineV2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/jasme/Desktop/VHDL/VendingMachineV2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity VendingM
+-- Compiling architecture DrinksVending_arch of VendingM
+
+} {} {}} C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity VendingM
+-- Compiling architecture DrinksVending_arch of VendingM
+** Error: C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(23): Nonresolved signal 'next_state' has multiple sources.
+  Drivers:
+    C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(93):Process Output_Process
+       Driven at:
+          C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(128)
+    C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(53):Process Next_State_Process
+       Driven at:
+          C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(60)
+** Note: C:/Users/jasme/Desktop/VHDL/VendingMacgineFSMv2.vhd(281): VHDL Compiler exiting
+
+} {10.0 11.0} {}}
