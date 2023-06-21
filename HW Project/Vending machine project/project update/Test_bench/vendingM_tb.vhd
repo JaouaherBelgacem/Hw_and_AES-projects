@@ -88,7 +88,40 @@ begin
     coffee <= '0';
     wait for 20 ns;
 
-    -- Add more test cases if needed
+    -- Test case 5: Choose tea (40 cents) with insufficient funds
+    euroIn <= '0';
+    twentyCent <= '0';
+    tee <= '1';
+    coffee <= '0';
+    wait for 20 ns;
+
+    -- Test case 6: Choose coffee (60 cents) with exact funds
+    euroIn <= '1';
+    twentyCent <= '1';
+    tee <= '0';
+    coffee <= '1';
+    wait for 20 ns;
+
+    -- Test case 7: Insert 50 cents (no drink chosen)
+    euroIn <= '0';
+    twentyCent <= '1';
+    tee <= '1';
+    coffee <= '0';
+    wait for 20 ns;
+
+    -- Test case 8: Insert 60 cents and choose coffee (exact funds)
+    euroIn <= '0';
+    twentyCent <= '1';
+    tee <= '0';
+    coffee <= '1';
+    wait for 20 ns;
+
+    -- Test case 9: Choose tea (40 cents) and receive 20 cents change
+    euroIn <= '1';
+    twentyCent <= '0';
+    tee <= '1';
+    coffee <= '0';
+    wait for 20 ns;
 
     -- End the simulation
     wait;
