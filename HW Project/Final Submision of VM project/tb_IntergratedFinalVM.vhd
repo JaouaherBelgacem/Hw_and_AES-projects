@@ -92,7 +92,7 @@ begin
     coffee <= '0';
     wait for 20 ns;
 
-    -- Add more test cases if needed
+
 
     -- End the simulation
     wait;
