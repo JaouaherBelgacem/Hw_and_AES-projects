@@ -1,10 +1,10 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY testbench IS
-END testbench;
+ENTITY tb_IntegratedFinalVM_tb IS
+END tb_IntegratedFinalVM_tb;
 
-ARCHITECTURE behavior OF testbench IS 
+ARCHITECTURE behavior OF tb_IntegratedFinalVM_tb IS 
 
     COMPONENT VendingM
     PORT(
