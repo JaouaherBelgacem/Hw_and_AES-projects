@@ -1,0 +1,139 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_unsigned.all;
+
+entity tb_vendingMV3_tb is
+end tb_vendingMV3_tb;
+
+architecture behave of tb_vendingMV3_tb is
+
+  constant clk_period : time := 10 ns;
+
+  signal Clock : std_logic := '0';
+  signal Reset : std_logic := '1';
+  signal euroIn : std_logic := '0';
+  signal twentyCent : std_logic := '0';
+  signal tee : std_logic := '0';
+  signal coffee : std_logic := '0';
+  signal An0 : std_logic_vector (7 downto 0) := (others => '0');
+  signal Display : std_logic_vector (7 downto 0) := (others => '0');
+  signal LED_s20 : std_logic := '0';
+  signal LED_s40 : std_logic := '0';
+
+begin
+  uut: entity work.VendingMachineV3
+    port map (
+      Clock => Clock,
+      Reset => Reset,
+      euroIn => euroIn,
+      twentyCent => twentyCent,
+      tee => tee,
+      coffee => coffee,
+      An0 => An0,
+      Display => Display,
+      LED_s20 => LED_s20,
+      LED_s40 => LED_s40
+    );
+
+  clk_process : process
+  begin
+    Clock <= '0';
+    wait for clk_period/2;
+    Clock <= '1';
+    wait for clk_period/2;
+  end process;
+
+   -- Stimulus process
+   stim_proc: process
+   begin		
+      -- hold reset state for 100 ns.
+      Reset <= '1';
+      wait for 100 ns;	
+      
+      Reset <= '0'; 
+      wait for Clock_period;
+
+      -- nothing inserted, no drinks selected
+      euroIn <= '0'; twentyCent <= '0'; tee <= '0'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- nothing inserted, tee selected
+      euroIn <= '0'; twentyCent <= '0'; tee <= '1'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- nothing inserted, coffee selected
+      euroIn <= '0'; twentyCent <= '0'; tee <= '0'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- nothing inserted, tee + coffee selected
+      euroIn <= '0'; twentyCent <= '0'; tee <= '1'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert 1 euro, no drinks selected
+      euroIn <= '1'; tee <= '0'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- insert 1 euro, tee selected
+      euroIn <= '1'; tee <= '1'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- insert 1 euro, coffee selected
+      euroIn <= '1'; tee <= '0'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert 1 euro, tee and coffee selected
+      euroIn <= '1'; tee <= '1'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert 20 cents, no drinks selected
+      twentyCent <= '1'; tee <= '0'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- insert 20 cents, tee selected
+      twentyCent <= '1'; tee <= '1'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- insert 20 cents, coffee selected
+      twentyCent <= '1'; tee <= '0'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert 20 cents, tee + coffe selected
+      twentyCent <= '1'; tee <= '1'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert another 20 cents, no drinks selected
+      twentyCent <= '1'; tee <= '0'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- now select tea
+      twentyCent <= '0'; tee <= '1'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- hold reset state for 100 ns.
+      Reset <= '1';
+      wait for 100 ns;	
+      
+      Reset <= '0'; 
+      wait for Clock_period;
+
+      -- insert 20 cents, no drink selected
+      twentyCent <= '1'; tee <= '1'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- insert another 20 cents, no drinks selected
+      twentyCent <= '1'; tee <= '0'; coffee <= '0'; 
+      wait for Clock_period;
+
+      -- insert another 20 cents, coffee selected
+      twentyCent <= '1'; tee <= '0'; coffee <= '1'; 
+      wait for Clock_period;
+
+      -- now select coffee
+      twentyCent <= '0'; tee <= '0'; coffee <= '1'; 
+      wait for Clock_period;
+
+    wait;
+  end process;
+
+end behave;
+
